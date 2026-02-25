@@ -1,7 +1,7 @@
-function Header({name , age}){
+function Header({name , age ,profession}){
   return(
-    <h1>helllo {name } you are {age}</h1>
+    <h1>Hello {name }! you are {age}, & you are a {profession}</h1>
   )
 
 }
-export default Header
+export default Header;
