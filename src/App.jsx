@@ -1,9 +1,5 @@
-function Header({name , age}){
-  return(
-    <h1>helllo {name } you are {age}</h1>
-  )
+import Header from "./components/Header";
 
-}
 function App(){
   let name= "vijay"
   let age =35
